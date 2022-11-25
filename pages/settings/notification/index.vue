@@ -1,8 +1,11 @@
 <template>
-  <p>{{ $route.params.group }} - {{ $route.params.id }}</p>
+  <div>
+    <h1>I am the child view</h1>
+  </div>
 </template>
 <script setup>
 definePageMeta({
 //   middleware: 'auth'
 })
 </script>
+
